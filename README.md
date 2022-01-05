@@ -18,3 +18,5 @@ Challenges
 [Challenge #1 - NMEA 2000 reader](./challenge-1)
 
 [Challenge #2 - canplayer frame rate mod](./challenge-2)
+
+[Challenge #3 - shortest path](./challenge-3)
