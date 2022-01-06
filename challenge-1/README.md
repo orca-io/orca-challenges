@@ -34,7 +34,8 @@ Details and Hints
 -----
  - Use vcan to create virtual can interface (SocketCAN) on Linux
  - NMEA 2000 network uses 250kbit/s rate i.e. 250000 bitrate
- - C++ up to v20 accepted
+ - C++ up to v20 with STL accepted
+ - Crosscompile for ARMv7-A (you can do it with arm-linux-gnueabihf toolchain and test it with qemu-arm-static on x86_64 host)
  - Since N2k is a closed standard, use the great open source [NMEA2000](https://github.com/ttlappalainen/NMEA2000) library to parse CAN frames into N2k messages, without having to worry about standard's particulars. The library has solid examples. Make sure to avoid compiling Arduino specific files, you'll discover those from compilation errors. Easiest is to include the library source in same compilation unit with your program instead of trying to use it as a library object.
  - Use [NMEA2000_socketCAN](https://github.com/thomasonw/NMEA2000_socketCAN) as a reference on how to implement SocketCAN driver interface with NMEA2000 library. Make it power efficient.
  - Use can-utils programs (canplayer, candump) to play logs and test CAN interface
