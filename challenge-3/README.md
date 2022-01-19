@@ -9,11 +9,13 @@ Given a start point and an end point and a list of gateway line segments, find a
 
 Details and Hints
 -----
-* Gateway line segments are ordered, which is determined by letters order, A-B is before C-D, and shell be visited in such order
+* Gateway line segments are ordered, which is determined by letters order, A-B is before C-D, and shall be visited in such order
 * Gateway line segments are oriented in respect to travel (start->end): lower letter is left, higher letter is right (e.g. in segment A-B, A is left and B is right)
 * Gateway line segments don't intersect
 * Traversal between consecutive segments is possible in straight line so that any path from start to end following above requirements will have all left points from gateway segments on its left side and all right points from gateway segments on its right side
 * Use C++ and preferably [libgeos](https://github.com/libgeos/geos/tree/3.10.1)
+* A solution should be scalable to millions of gateway line segments, so be mindful of time complexity of your solution
+* Structure for input data (segments and start/end points) is whatever you find convenient (WKT, GeoJSON, raw arrays...)
 
 Example
 -----
@@ -22,6 +24,7 @@ The following is an example of the setup with FROM (start) and TO (end) points a
 
 The red polyline is a path connecting start and end points following above requirements except it's not the shortest such path.
 
+The structure of example input data is JSON for simplicity.
 ##### Example graph
 [View at GeoGebra](https://www.geogebra.org/geometry/d6nepsnu)
 
@@ -170,4 +173,4 @@ The red polyline is a path connecting start and end points following above requi
 
 Deliverable
 -----
-Url to video demonstrating the solution or source code or only algo explanation (if you find this easy).
+Url to video demonstrating the solution or source code or only algo explanation (if you find this easy and cannot be bothered to code it).
