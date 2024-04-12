@@ -20,3 +20,5 @@ Challenges
 [Challenge - canplayer frame rate mod](./challenge-canplayer)
 
 [Challenge - shortest path](./challenge-shortest-path)
+
+[Challenge - AIS viewer](./challenge-ais-viewer)
