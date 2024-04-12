@@ -1,4 +1,4 @@
-Challenge #3 - shortest path
+Challenge - shortest path
 =====
 
 Path finding algorithms and computational geometry are at core of marine routing and navigation systems. Water depth, vessel dimension, weather conditions, UX (speed, flexibility, presentation) are some of the core challenges of marine navigation solutions that require thinking outside of the box of conventional land network based navigation solutions.

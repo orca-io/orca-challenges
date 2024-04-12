@@ -1,4 +1,4 @@
-Challenge #1 - NMEA 2000 reader
+Challenge - NMEA 2000 reader
 =====
 
 NMEA 2000 aka N2k is a communications standard used for connecting marine sensors and display units within ships and boats via CAN bus.

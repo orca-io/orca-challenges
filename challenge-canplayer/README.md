@@ -1,4 +1,4 @@
-Challenge #2 - canplayer frame rate mod
+Challenge - canplayer frame rate mod
 =====
 
 [canplayer](https://github.com/linux-can/can-utils/blob/master/canplayer.c) is a Linux program written in C, used for replaying CAN logs to CAN interfaces. It's part of [can-utils](https://github.com/linux-can/can-utils) - a SocketCAN userspace utilities and tools package.

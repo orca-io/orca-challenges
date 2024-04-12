@@ -10,13 +10,13 @@ How?
 2. We evaluate and get back to you
 3. You keep your solution until you join
 
-Open an issue prefixed with "challenge-#" to inquire about specific challenge.
+Open an issue prefixed with "challenge-xyz" to inquire about specific challenge.
 
 Challenges
 -----
 
-[Challenge #1 - NMEA 2000 reader](./challenge-1)
+[Challenge - NMEA 2000 reader](./challenge-n2k-reader)
 
-[Challenge #2 - canplayer frame rate mod](./challenge-2)
+[Challenge - canplayer frame rate mod](./challenge-canplayer)
 
-[Challenge #3 - shortest path](./challenge-3)
+[Challenge - shortest path](./challenge-shortest-path)
