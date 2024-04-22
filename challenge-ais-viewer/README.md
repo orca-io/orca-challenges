@@ -33,12 +33,14 @@ Details
 5. Displayed vessels should be fresh - don’t show vessels that haven’t been updated in the past 2 minutes
 
 
-Hints
+Notes
 -----
 
 We value simplicity and elegance as opposed to overengineering.
 
 When designing vessels data retrieval API, consider that you only need to retrieve data for a current map view, which given the Frontend point 3 is only a small subset of the full dataset and never the full set. Retrieving the full set every 10 seconds would not be feasible.
+
+The system should support multiple simultaneous map viewers.
 
 
 Deliverable
