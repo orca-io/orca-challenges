@@ -25,7 +25,7 @@ The user is a recreational boater. The user understands the principles of AIS. T
 2. The representation must work on top of the Orca charts and minimize obstruction of legibility of the chart's content. A link to an interactive Orca chart will be given on request. 
 3. The system must work well across many chart zoom levels, from small to large scale (ex: Viewing the British Channel crossing and viewing the detailed layout at a marina)
 4. The system must work well when many vessels are present in a confined location around the user's boat, and when there are few vessels around the user's boat
-5. The system may show contextual information to assist the user in identifying the closest point of approach with vessels nearby to avoid uncomfortable close encounters and passings
+5. The system may show contextual information to assist the user in identifying the closest point of approach with vessels nearby to avoid uncomfortable close passings
 
 
 Notes
@@ -35,14 +35,14 @@ We value simplicity and elegance as opposed to complex solutions.
 
 Present the final result with realistic vessel density under multiple conditions/areas. Use MarineTraffic[3] or similar tools to evaluate what a realistic traffic density looks like at various locations. 
 
-While it's reasonable to expect the user to be able to click on a vessel to query it for details, this functionality does not need to be designed in the task. The task only asks for how to visualize vessels in the Orca map.
+While it's reasonable to expect the user to be able to click on a vessel to query it for details, this functionality does not need to be designed in the task. The task only asks how to visualize vessels in the Orca map.
 
 
 Deliverable
 -----
 
 1. Document the steps you've taken to research the problem.
-2. Document the varios iterations you've done – even those discarded.
+2. Document the various iterations you've done – even those discarded.
 3. Present the final result in whatever form you'd like.
 
 
