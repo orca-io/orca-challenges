@@ -1,7 +1,7 @@
 Challenge - AIS design
 =====
 
-> The automatic identification system, or AIS, transmits a ship’s position so that other ships are aware of its position. The International Maritime Organization and other management bodies require large ships, including many commercial fishing vessels, to broadcast their position with AIS in order to avoid collisions. Each year, more than 400,000 AIS devices broadcast vessel location, identity, course and speed information. Ground stations and satellites pick up this information, making vessels trackable even in the most remote areas of the ocean.[1]
+> The automatic identification system, or AIS, transmits a ship’s position so that other ships are aware of its position. The International Maritime Organization and other management bodies require large ships, including many commercial fishing vessels, to broadcast their position with AIS in order to avoid collisions. Each year, more than 400,000 AIS devices broadcast vessel location, identity, course, and speed information. Ground stations and satellites pick up this information, making vessels trackable even in the most remote areas of the ocean.[1]
 
 
 Task
@@ -10,6 +10,7 @@ Task
 Design an AIS representation for Orca that balances the given considerations. The goal of the representation is to show other vessels in the user's marine chart to help the user:
 
 a) Avoid collisions, close encounters, and respect right of way[2]
+
 b) Understand the general traffic conditions at a given area prior to arrival/entry in the area
 
 Details
@@ -21,7 +22,7 @@ The user is a recreational boater. The user understands the principles of AIS. T
 
 ### Considerations
 
-1. Vessel types should be differentiated to allow the user to easily identify and proactively adjust to respect right of way
+1. Vessels should be differentiated to allow the user to easily identify and proactively adjust to respect right of way
 2. The representation must work on top of the Orca charts and minimize obstruction of legibility of the chart's content. A link to an interactive Orca chart will be given on request. 
 3. The system must work well across many chart zoom levels, from small to large scale (ex: Viewing the British Channel crossing and viewing the detailed layout at a marina)
 4. The system must work well when many vessels are present in a confined location around the user's boat, and when there are few vessels around the user's boat
