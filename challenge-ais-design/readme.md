@@ -42,6 +42,8 @@ While it's reasonable to expect the user to be able to click on a vessel to quer
 Deliverable
 -----
 
+The primary goal of this task is to understand the process you've taken to reach the final result and the considerations and compromises you've made. The final result does not need to be "pixel-perfect".
+
 1. Document the steps you've taken to research the problem.
 2. Document the various iterations you've done – even those discarded.
 3. Present the final result in whatever form you'd like.
