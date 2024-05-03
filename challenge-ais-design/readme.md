@@ -36,7 +36,7 @@ We value simplicity and elegance as opposed to complex solutions.
 
 Present the final result with realistic vessel density under multiple conditions/areas. Use MarineTraffic[3] or similar tools to evaluate what a realistic traffic density looks like at various locations. 
 
-While it's reasonable to expect the user to be able to click on a vessel to query it for details, this functionality does not need to be designed in the task. The task only asks how to visualize vessels in the Orca map.
+While it's reasonable to expect the user to be able to click on a vessel to query it for details, this functionality does not need to be designed in the task. The task only asks how to visualize vessels in the Orca map. The system will also only use "real-time" data, and will not show any historical data to the user.
 
 
 Deliverable
