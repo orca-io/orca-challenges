@@ -25,7 +25,7 @@ The user is a recreational boater. The user understands the principles of AIS. T
 1. Vessels should be differentiated to allow the user to easily identify and proactively adjust to respect right of way
 2. The representation must work on top of the Orca charts and minimize obstruction of legibility of the chart's content. A link to an interactive Orca chart will be given on request. 
 3. The system must work well across many chart zoom levels, from small to large scale (ex: Viewing the English Channel crossing and viewing the detailed layout at a marina)
-4. The system must work well when many vessels are present in a confined location around the user's boat, and when there are few vessels around the user's boat
+4. The system must work well when many vessels are present in a confined location, and when there are few vessels in an area
 5. The system may show contextual information to assist the user in identifying the closest point of approach with vessels nearby to avoid uncomfortable close passings
 
 
