@@ -5,7 +5,7 @@ Path finding algorithms and computational geometry are at core of marine routing
 
 Task
 -----
-Given a start point and an end point and a list of gateway line segments, find a shortest path from start to end that goes through gateway segments in order.
+Given a start point and an end point and a list of gateway line segments, find the shortest path from start to end that goes through gateway segments in order.
 
 Details and Hints
 -----
