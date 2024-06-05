@@ -16,7 +16,7 @@ Details
 ### Backend
 
 1. Ingest AIS data from aisstream.io[2]
-2. For simplicity only handle AIS message types 1-3[3]
+2. For simplicity only handle AIS message PositionReport[3]
 3. Keep in mind that there could be up to 30k vessels for full world coverage, and most of them relatively fresh (updated within 10 minutes)
 4. Use database with a geospatial extension (PostGIS, SpatiaLite, MongoDB…) to store the vessels data
 5. Vessels data should persist - backend reboot should keep previously processed data
