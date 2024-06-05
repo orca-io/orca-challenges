@@ -21,6 +21,7 @@ Details and Hints
  - Use candump and pv to test output rate
    - `candump vcan0 | pv -l -r > /dev/null` should tell CAN input frame rate
  - The usual way to solve this task is to introduce a delay between frames based on processing time of a frame and desired frame rate. This solution is acceptable for high performance hosts where costs to calculating necessary delays is cheap and insignificant. However, on a more limited host the delay calculation(s) may introduce additional delay which can have significant impact on output rate, so **your solution should dynamically adjust delays based on realized vs target frame rate**.
+ - The realized frame rate should be within few percent of target frame rate
 
 Deliverable
 -----
