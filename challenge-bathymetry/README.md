@@ -47,7 +47,7 @@ Notes
 
 Deliverable
 -----
-1. **Code Repository**: preferably a GitHub repository
+1. **Code Repository**: Preferably a GitHub repository.
 2. **Video Demo**: A short video demonstrating how the solution works end-to-end including the final map visualization.
 
 
