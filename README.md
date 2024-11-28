@@ -22,3 +22,7 @@ Challenges
 [Challenge - shortest path](./challenge-shortest-path)
 
 [Challenge - AIS viewer](./challenge-ais-viewer)
+
+[Challenge - AIS design](./challenge-ais-design)
+
+[Challenge - Bathymetry](./challenge-bathymetry)
