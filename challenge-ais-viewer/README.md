@@ -24,11 +24,11 @@ Details
 
 ### Frontend
 
-1. Use MapLibre GL JS[4] for displaying the map
+1. Use Mapbox Maps SDK for React Native[4] for displaying the map
 2. Show vessels on the map
-    - Show the vessel's course so that the course of the vessel is clearly visible via the direction of the marker
+    - Make sure that the course of the vessel is clearly visible via the direction of the marker
 3. Display vessels only when map zoom level 12 or more to set a boundary for client-side performance
-4. Displayed vessels should be near real-time - ~10 seconds delay from receiving it on the backend to being added/updated on the map
+4. Displayed vessels should be near real-time - max 10 seconds delay from receiving it on the backend to being added/updated on the map
 5. Displayed vessels should be fresh - don’t show vessels that haven’t been updated in the past 2 minutes
 
 
@@ -37,9 +37,9 @@ Notes
 
 We value simplicity and elegance as opposed to over-engineering.
 
-Consider that the client side only needs to retrieve data for a current map view, which given the Frontend point 3 is only a small subset of the full dataset. Retrieving the full set every 10 seconds would not be feasible.
+Consider that the client side only needs to retrieve data for the current map view, which given the Frontend point 3 is only a small subset of the full dataset. Retrieving the full set every 10 seconds would not be feasible.
 
-The system should support a significant amount of simultaneous map viewers.
+The system should support many simultaneous map viewers.
 
 
 Deliverable
@@ -55,4 +55,4 @@ References
 - [1] https://globalfishingwatch.org/faqs/what-is-ais
 - [2] https://aisstream.io/documentation
 - [3] https://aisstream.io/documentation#PositionReport
-- [4] https://maplibre.org/maplibre-gl-js/docs/
+- [4] https://github.com/rnmapbox/maps
